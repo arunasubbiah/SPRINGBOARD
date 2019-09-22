@@ -27,12 +27,12 @@ exploring the data, and getting acquainted with the 3 tables. */
 /* Q1: Some of the facilities charge a fee to members, but some do not.
 Please list the names of the facilities that do. */
 		
-	SELECT name FROM facilities WHERE membercost != 0;
+	SELECT name FROM Facilities WHERE membercost != 0;
 
 
 /* Q2: How many facilities do not charge a fee to members? */
 
-	SELECT count(name) FROM facilities WHERE membercost = 0;
+	SELECT count(name) FROM Facilities WHERE membercost = 0;
 
 
 /* Q3: How can you produce a list of facilities that charge a fee to members,
@@ -41,13 +41,13 @@ Return the facid, facility name, member cost, and monthly maintenance of the
 facilities in question. */
 		
 	SELECT facid, name, membercost, monthlymaintenance  
-	FROM facilities  WHERE membercost < (0.2 * monthlymaintenance);
+	FROM Facilities  WHERE membercost < (0.2 * monthlymaintenance);
 
 
 /* Q4: How can you retrieve the details of facilities with ID 1 and 5?
 Write the query without using the OR operator. */
 		
-	SELECT * FROM facilities  WHERE facid IN (1,5);
+	SELECT * FROM Facilities  WHERE facid IN (1,5);
 
 
 /* Q5: How can you produce a list of facilities, with each labelled as
@@ -59,7 +59,7 @@ in question. */
 		CASE WHEN monthlymaintenance > 100 THEN 'expensive' 
 			ELSE 'cheap' 
 		END AS maintainance_label 
-	FROM facilities;
+	FROM Facilities;
 
 
 /* Q6: You'd like to get the first and last name of the last member(s)
