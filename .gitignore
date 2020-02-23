@@ -9,6 +9,6 @@
 sliderule_dsi_json_exercise.ipynb
 
 #Files under misc directories
-Capstone_Project1/misc/
-Capstone_Project2/misc/
-
+Capstone_Project1/misc/*
+Capstone_Project2/misc/*
+MiniProjects/misc/*
