@@ -4,7 +4,7 @@
 **Background**  
 Call Detail Record [CDR] describes a specific instance of a telecommunication transaction that passes through a network element. Every time a user performs a telecom activity such as send/receive SMS and calls, a CDR is generated. It contains information about the caller/sender ID, location, time, data used, etc. Millions and millions of such records are generated and is mainly used for billing purposes. 
 
-**Purpose**
+**Purpose**  
 In this project I have analysed and modeled  Milan's telecommunication time series data to identify usage patterns over a period of time and across geographical grids. This helps in decision making of resource allocation by the telecommunication company.   
 
 **Dataset**  
