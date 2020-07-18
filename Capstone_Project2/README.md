@@ -2,7 +2,7 @@
 
 Binary sentiment classification is analyzing customers opinion such as online reviews or survey responses as positive or negative. It helps to understand how well a product or service is doing in the market and helps stakeholders to take swift action based on the analysis.  
 
-# Purpose  
+## Purpose  
 In this project we will analyze movie reviews from IMDB and classify them into positive or negative using various Classification models and compare their performances.
 
 ## Dataset
@@ -14,10 +14,10 @@ After the initial data wrangling and EDA (covered in Milestone 1), there are 3 m
 Six classification models Logistic Regression, Naïve Bayes, SVM, Decision Tree, Random Forest, Light GBM are compared based on metrics such as, Accuracy, ROC_AUC, F1 score, Recall & Precision. Refer to Project_Report.pdf for metrics and plots used to compare the models.  
 
 2. Feature Selection   
-feature_importances_ attribute & RFE techniques are used to remove variables that are not that significant and still have similar or better performance in much shorter training time
+feature_importances_ attribute, RFE & PCA techniques are used to remove features that are not that significant and still have similar or better performance in much shorter training time.
 
 3. Handling Class Imbalance   
-class_weights parameter of sklearn's Logistic Regression, Resampling methods & SMOTE are analysed to handle class imbalance
+class_weights parameter of sklearn's Logistic Regression, Resampling methods & SMOTE are analysed to handle class imbalance.
 
  
 
