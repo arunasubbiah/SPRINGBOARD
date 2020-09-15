@@ -1,2 +1,2 @@
 # SPRINGBOARD
-This repo contains all my work and submissions during Springboard Datascience bootcamp. 
+This repo contains all my work and submissions during my Springboard Datascience Career track program. 
